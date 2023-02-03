@@ -3,7 +3,7 @@
 ---
 
 ## Page about prominent person (html, css).
-[Link "Prominent person"](https://github.com/AnastasiaSh29/prominent-person/)
+[Link "Prominent person"](https://anastasiash29.github.io/prominent-person/)
 
 ---
 
