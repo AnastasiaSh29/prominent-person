@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600&display=swap');
+
+.page {
+    min-height: 100%;
+    min-width: 1100px;
+    max-width: 1440px;
+    margin: 0 auto;
+    color: #000;
+    font-family: 'Cairo','Helvetica Neue', 'Arial', 'sans-serif';
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__name {
+    font-size: 80px;
+    margin: 50px auto 20px auto;
+    font-weight: bold;
+}
+
+.header__age {
+    font-size: 40px;
+    margin: 0 auto 20px auto;
+    font-weight: bold;
+}
+
+.header__occupation {
+    font-size: 40px;
+    margin: 0 auto 20px auto;
+    font-weight: bold;
+}
+
+.header__about{
+    font-size: 25px;
+    margin: 0 0 20px 0;
+    padding: 0 10px;
+    border: 2px solid #c9c9c9;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__img {
+    border: 2px solid rgba(81, 23, 9, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 40px 0;
+    border: 2px solid #c9c9c9;
+}
+
+.img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.content__img-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 10px 0;
+    width: 99%;
+    background-color: #c9c9c9;
+}
+
+.content__timeline{
+    width: 100%;
+}
+.content__timeline-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+.list__item {
+    font-size: 25px;
+}
+
+.footer {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 35px 0;
+}
+
+.footer__link {
+    color: #2f80ed;
+}
